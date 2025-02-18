@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #121223;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .login-container {
+            background-color: #1c1c2e;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 15px;
+        }
+        .input-field {
+            display: block;
+            width: 200px;
+            padding: 8px;
+            margin: 10px auto;
+            border-radius: 5px;
+            border: none;
+            background-color: #0f0f1a;
+            color: white;
+        }
+        .input-field::placeholder {
+            color: gray;
+        }
+        .login-button {
+            background-color: #66cc80;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .signup-text {
+            margin-top: 15px;
+            color: #00ff99;
+        }
+        .signup-text a {
+            color: #00ff99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-text a{
+            color: #81c5fd;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="./img/logo.png" alt="Logo" width="100">
+        <h2>Login</h2>
+        <input type="email" class="input-field" placeholder="Email">
+        <input type="password" class="input-field" placeholder="Senha">
+        <button class="login-button">Entrar</button>
+        <p class="signup-text">Ainda não tem uma conta? <a href="#">Crie uma.</a></p> 
+        <p class="link-text"><a href="./index.html"> Chatgpt.</a><a href="./pages/deepseek.html"> Deepseek.</a><a href="./pages/bing.html"> Bing.</a></p>
+
+    </div>
+</body>
+</html>

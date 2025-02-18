@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121223;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+        .login-container {
+            background-color: #1e1e2f;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .logo {
+            width: 160px;
+            margin-bottom: 10px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: white;
+        }
+        .login-container input {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #2a2a3a;
+            color: white;
+        }
+        .login-container input::placeholder {
+            color: #ccc;
+        }
+        .login-container button {
+            width: 50%;
+            padding: 8px;
+            background-color: #66cc80;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-container button:hover {
+            background-color: #5cb85c;
+        }
+        .login-container a {
+            color: #00ff99;
+            text-decoration: none;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+        .create-account {
+            margin-top: 15px;
+            color: #00ff99;
+        }
+        .link-text a{
+            color: #81c5fd;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="../img/logo.png" alt="Logo" class="logo">
+        <h2>LOGIN</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p class="create-account">Ainda não tem uma conta? <a href="#">Crie uma.</a></p>
+        <p class="link-text"><a href="./index.html"> Chatgpt.</a><a href="./pages/deepseek.html"> Deepseek.</a><a href="./pages/bing.html"> Bing.</a></p>
+    </div>
+</body>
+</html>

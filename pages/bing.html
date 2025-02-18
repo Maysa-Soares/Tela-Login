@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121223;
+            font-family: 'Sans-serif', Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: #1c1c2b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 160px;
+            height: auto;
+        }
+        h2 {
+            color: #ffffff;
+        }
+        input[type="email"], input[type="password"] {
+            width: 200px;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #202040;
+            color: #fff;
+        }
+        input[type="email"]::placeholder, input[type="password"]::placeholder {
+            color: gray;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #66cc80;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        p, a {
+            color: #00ff99;
+        }
+        .signup-link {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link-text a{
+            color: #81c5fd;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../img/logo.png" alt="Logo">
+        </div>
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email">
+            <br>
+            <input type="password" placeholder="Senha">
+            <br>
+            <button type="button">Entrar</button>
+        </form>
+        <p>Ainda não tem uma conta? <a href="#" class="signup-link">Crie uma.</a></p>
+        <p class="link-text"><a href="../index.html"> Chatgpt.</a><a href="./deepseek.html"> Deepseek.</a><a href="./bing.html"> Bing.</a></p>
+
+    </div>
+</body>
+</html>
